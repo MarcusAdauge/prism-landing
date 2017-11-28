@@ -1,0 +1,46 @@
+/* Header */
+
+.header {
+    width: 100%;
+    height: 550px;
+    background: #ffffff url('../img/hero.jpg') no-repeat right center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    width: 175px;
+    height: auto;
+}
+
+.menu {
+    position: relative;
+    margin: 20px auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+/* End of Header */
