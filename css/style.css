@@ -173,6 +173,29 @@ html {
 }
 /* End of Before & After */
 
+/* Call to action */
+.acceleration-image {
+    width: 175px;
+    height: auto;
+}
+
+.contact-button {
+    text-decoration: none;
+    background-color: #555555;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 20px 40px;
+}
+
+.contact-button:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #555555;
+    border: 3px solid #555555;
+}
+
+/* End of Call to action */
+
 /* Prism Facts */
 .prism-facts {
     height: 500px;
