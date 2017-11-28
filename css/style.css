@@ -1,11 +1,19 @@
-/* Header */
+html {
+    height: 100%;
+}
 
-.header {
+.image-section {
     width: 100%;
-    height: 550px;
-    background: #ffffff url('../img/hero.jpg') no-repeat right center;
     background-size: cover;
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+.header {
+    height: 550px;
+    background-image: url('../img/hero.jpg');
 }
 
 .header .container {
@@ -13,7 +21,7 @@
     position: relative;
 }
 
-.header-overlay {
+.overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -93,5 +101,81 @@
         margin: 0 15px;
     }
 }
-
 /* End of Header */
+
+/* General Section */
+.section {
+    padding: 75px 0;
+}
+
+.section-title {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+/* End General Section */
+
+/* About */
+.about {
+    color: #555555;
+}
+
+.emphasized {
+    font-weight: bold;
+}
+
+.about-description {
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+}
+/* End of About */
+
+/* Before & After */
+.before-after {
+    background-color: #555555;
+    color: white;
+}
+
+.before-after .col {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.before-after-list {
+    list-style: none;
+    font-size: 1.35rem;
+    font-weight: 300;
+    padding: 0;
+}
+
+.before-after-list li {
+    margin: 15px 0;
+}
+
+.before-after i {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.before-list {
+
+}
+
+.after-list {
+
+}
+/* End of Before & After */
+
+/* Prism Facts */
+.prism-facts {
+    height: 500px;
+    background-image: url('../img/facts.jpeg');
+}
+/* End of Prism Facts */
