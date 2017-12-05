@@ -32,10 +32,10 @@ html {
 .logo {
     width: 500px;
     height: auto;
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .menu {
@@ -151,13 +151,14 @@ html {
     text-align: center;
 }
 
-.before-list {
-
+.before-after .before-col {
+    border-color: #AAAAAA;
 }
 
-.after-list {
-
+.before-after .before-col i{
+    color: #AAAAAA;
 }
+
 /* End of Before & After */
 
 /* Call to action */
@@ -194,7 +195,7 @@ html {
     position: absolute;
     width: 500px;
     top: 10%;
-    right: 15%;
+    right: 25%;
 }
 
 .facts-title {
